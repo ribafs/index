@@ -2,7 +2,9 @@
 
 ## Alguns dos meus principais repositorios
 
-A maioria dos repositórios encotnrados aqui são forks, mas tenho uma forte motivação para criar forks. Primeiro são projetos de que gostei e assim podem também ser úteis a outros programadores, que de outra forma talvez nunca os encotnraria.
+A maioria dos repositórios encotnrados aqui são forks, mas tenho uma forte motivação para criar forks. Vou aproveitar para esclarecer pois alguns colegas em grupos não entendem por que crio forks assim, mesmo sem ser colaborador dos projetos. 
+
+Primeiro são projetos de que gostei e assim podem também ser úteis a outros programadores, que de outra forma talvez nunca os encotnraria.
 
 Outro forte motivo é que tenho a pretensão de traduzir, melhorar e corrigir algo neles, caso exista algo para corrigiur. Tenho feito isso com alguns poucos.
 
