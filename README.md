@@ -10,7 +10,6 @@ Outro forte motivo é que tenho a pretensão de traduzir, melhorar e corrigir al
 
 Um outro motivo é que, em sendo bons projetos estou ajudando o autor a divulgar.
 
-
 ## PHP
 - https://github.com/ribafs/cruds
 - https://github.com/ribafs/crud-generator
@@ -30,7 +29,7 @@ Um outro motivo é que, em sendo bons projetos estou ajudando o autor a divulgar
 - https://github.com/ribafs/login-multi
 - https://github.com/ribafs/aplicativos-php
 
-## Sites antigos
+## Alguns dos meus sites anteriores
 - https://github.com/ribafs/portal
 - https://github.com/ribafs/ribafsindex
 - https://github.com/ribafs/primeiro-site
