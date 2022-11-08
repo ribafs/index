@@ -1,11 +1,104 @@
-<meta charset="utf-8">
-<div id="header"></div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<title>RibaFS Github Index</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon-96x96.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/main.css">
+	</head>
+	
+	<body>	
+		<nav class="navbar navbar-expand-md">
+			<a class="navbar-brand" href="index.html">RibaFS Index</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Início</a>
+					</li>
+                      <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">Front-end
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#" onclick="return frontend()">O que é?</a></li>
+                          <li><a class="dropdown-item" href="html.html">HTML</a></li>
+                          <li><a class="dropdown-item" href="css.html">CSS</a></li>
+                          <li><a class="dropdown-item" href="js.html">JavaScript</a></li>
+                          <li><a class="dropdown-item" href="jquery.html">jQuery</a></li>
+                          <li><a class="dropdown-item" href="bs.html">Bootstrap</a></li>
+                          <li><a class="dropdown-item" href="react.html">React</a></li>
+                          <li><a class="dropdown-item" href="vue.html">Vue</a></li>
+                          <li><a class="dropdown-item" href="angular.html">Angular</a></li>
+                          <li><a class="dropdown-item" href="alpine.html">Alpine</a></li>
+                        </ul>
+                      </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<script>
-$( "#header" ).load( "includes/header.txt" );
-</script>
+                      <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">Back-end
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#" onclick="return backend()">O que é?</a></li>
+                          <li><a class="dropdown-item" href="node.html">Node</a></li>
+                          <li><a class="dropdown-item" href="deno.html">Deno</a></li>
+                          <li><a class="dropdown-item" href="adonis.html">Adonis</a></li>
+                          <li><a class="dropdown-item" href="next.html">Next</a></li>
+                          <li><a class="dropdown-item" href="nest.html">Nest</a></li>
+                          <li><a class="dropdown-item" href="api.html">API</a></li>
+                          <li><a class="dropdown-item" href="php.html">PHP</a></li>
+                          <li><a class="dropdown-item" href="sgbd.html">SGBD</a></li>
+                          <li><a class="dropdown-item" href="framework.html">Framework</a></li>
+                          <li><a class="dropdown-item" href="cms.html">CMS</a></li>
+                          <li><a class="dropdown-item" href="outras.html">Outras Linguagens</a></li>
+                        </ul>
+                      </div>
 
+					<li class="nav-item">
+						<a class="nav-link" href="mobile.html">Mobile</a>
+					</li>
+
+                      <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">DevOps
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#" onclick="return devops()">O que é?</a></li>
+                          <li><a class="dropdown-item" href="devops.html">DevOps</a></li>
+                        </ul>
+                      </div>
+
+					<li class="nav-item">
+						<a class="nav-link" href="servidores.html">Servidores</a>
+					</li>
+
+                      <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">No-code
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#" onclick="return nocode()">O que é?</a></li>
+                          <li><a class="dropdown-item" href="nocode.html">No-code</a></li>
+                        </ul>
+                      </div>
+
+					<li class="nav-item">
+						<a class="nav-link" href="cursos.html">Cursos</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="ferramentas.html">Ferramentas</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="extra.html">Extra</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sobre.html">Sobre</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 		<header class="main">
 			<div class="text-center">
                 <img class="rounded-circle mx-auto my-4" src="assets/images/ribafs.png" alt="RibaFS" title="RibaFS">
@@ -17,9 +110,46 @@ $( "#header" ).load( "includes/header.txt" );
 			</div>
         </header>
 
-<div id="footer"></div>
+		<footer class="page-footer">
+			<div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
+		</footer>
+		
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+		<script src="assets/main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+		<script>
+        function frontend(){
+			Swal.fire({
+			icon: 'info',
+			title: 'Front-end',
+			text: 'Tudo aquilo que você consegue visualizar neste site, clicar ou ter algum outro tipo de interação, o front-end é o responsável por fazer isso acontecer. Há algum tempo os termos back-end e front-end não eram conhecidos e em geral o programador criava o site por inteiro. Os sites foram evoluindo e ficando complexos e atualmente temos a separação e o front-end evoluiu muito, aparecendo diversos frameworks, alguns com programação que até parece linguagem back-end.',
+			})
+		}
 
-<script>
-$( "#footer" ).load( "includes/footer.txt" );
-</script>
+        function backend(){
+			Swal.fire({
+			icon: 'info',
+			title: 'Back-end',
+			text: 'Apesar de diferentes, front-end e back-end precisam trabalhar juntos para garantir a usabilidade do site e uma navegação amigável. Nesse contexto, a programação back-end está associada ao server-side. O desenvolvimento back-end trabalha criando códigos para que algumas funções do site sejam executadas.Além de envolver linguagens de programação distintas do desenvolvimento front-end em geral, aqui também são envolvidos bancos de dados, responsáveis por processar as informações recebidas.',
+			})
+		}
 
+        function devops(){
+			Swal.fire({
+			icon: 'info',
+			title: 'DevOps',
+			text: 'O DevOps é uma metodologia que visa a integração entre os setores de desenvolvimento e operações. O objetivo é agilizar e otimizar a criação e o gerenciamento da estrutura das aplicações. Mas, por que a necessidade de união? Houve o entendimento de que, trabalhando lado a lado, essas duas equipes geram mais resultado e menos conflito. Ou seja, no DevOps, não há dois times, mas um só — que compartilha processos, ferramentas e responsabilidades. O próprio nome já mostra isso: DevOps – Desenvolvedores e Operadores.',
+			})
+		}
+
+        function nocode(){
+			Swal.fire({
+			icon: 'info',
+			title: 'No-code',
+			text: 'No-code (em português, “sem código”) é uma abordagem diferente de desenvolvimento de software, que não requer conhecimentos de programação para construir um aplicativo. Ou seja, a diferença entre o desenvolvimento tradicional e o do no-code é que neste não é necessário usar códigos, realizar testes, correção de bugs, etc. Com isso, os colaboradores de outras áreas do seu negócio, que não são especializados em TI, também conseguem criar aplicativos, alterar aplicativos já existentes ou adicionar funcionalidades. Low-code são os aplicativos que requerem pouco código.',
+			})
+		}
+		</script>
+	</body>
+</html>
