@@ -1,0 +1,121 @@
+.dropdown-item{
+    background-color: #39A851;
+    color: #FFF;
+}
+
+/*--- page ---*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #f2f6e9;
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+	background: #39a851;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	background-color: #1b9934;
+    color: #FFF;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+/*--- header ---*/
+
+.page-header {
+    min-height: 100vh !important;
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+}
+
+.main{
+    background-image: url("images/bg.png");
+    min-height: 90vh; 
+}
+
+b, h1,h2,h3,h4,h5 {
+	color: #62e599;
+}
+
+h5 {
+	color: #16f4d3;
+}
+
+.index{
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #FFF;
+	font-size: 1.3rem;
+	line-height: 1.5;
+    text-align: center;
+}
+
+p {
+	color: #fff;
+	font-size: 1.1rem;
+	line-height: 1.5;
+}
+
+a:link {
+    text-decoration: none;
+    color: #bdf4b0;
+}
+a:visited {
+  color: #d7f4dd;
+}
+a:hover {
+  color: #85e598;
+}
+.body p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+}
+.footer-copyright {
+	color: #666;
+	padding: 5px 0;
+}
+
+@media (max-width: 575.98px) {
+
+	.description {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 10%;
+		transform: none;
+		text-align: center;
+	}
+	
+	.description h1 {
+		font-size: 2em;
+	}
+	
+	.description p {
+		font-size: 1.2rem;
+	}
+}
