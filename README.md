@@ -6,6 +6,10 @@ Partindo do site criado no tutorial citado ao final (gratidão aos autores)
 
 Este site destina-se a listar por categorias, todos os meus repositórios, inclusive os forks no Github. Como hoje, 08/11/2022, existem 909 repositórios na minha conta, sendo 130 meus e os demais forks, fica muito trabalhoso percorrer ou pesquisar por repositórios. Então resolvi criar um repositório com o nome index e listar todos os repositórios agrupados por categorias. Então, durante a elaboração resolvi criar uma Github page para o mesmo. Procurei um tutorial sobre a criação de um site com Bootstrap, pois para mim é a solução mais prática. Então encontrei o tutorial do link acima, que contém os arquivos para download. Este me agradou especialmente por dois motivos, por ser relativamente simples (seu CSS/BS) e especialmente por ser responsivo.
 
+## Acesse
+
+https://ribafs.github.io/index
+
 ## Projeto do site
 
 ### Categorias
