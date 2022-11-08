@@ -49,7 +49,7 @@ Este site tem como conteúdo basicamente links. No caso de conteúdo comum, com 
 ## Como crio cada arquivo
 
 Exemplo, para criar o arquivo css.html, eu procedo assim:
-
+```
 <meta charset="utf-8">
 <div id="header"></div>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -68,7 +68,11 @@ Aqui fica a relação de links de repositórios sobre CSS
 
 <div id="footer"></div>
 <script>$( "#footer" ).load( "includes/footer.txt" );</script>
+```
 
+## Problema
+
+Esta é a melhor alternativa que encontrei de criar sites em HTML estático, mas tem um problema. O método load() do jQuery provoca este efeito blink, piscada, sempre que carrega uma página. Pesquisei bastante mas ainda não encontrei uma solução.
 
 ## Crédito pelo original
 
