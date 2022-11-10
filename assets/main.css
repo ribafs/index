@@ -49,7 +49,7 @@ hr{
 
 .main{
     background-image: url("images/bg.png");
-    min-height: 90vh; 
+    min-height: 100vh; 
 }
 
 b, h1,h2,h3,h4,h5 {
